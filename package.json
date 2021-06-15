@@ -1,0 +1,23 @@
+{
+  "name": "shiny-chainsaw",
+  "version": "1.0.0",
+  "description": "write some nice interC:\\Users\\legion\\Desktop\\Doing\\YNET\\cheetah_mobile\\npm_modules\\@ynet\\ynet-bridge\\doc\\猎豹移动前端JSAPI接口文档.mdesting demo",
+  "main": "compatible.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EX-EA/shiny-chainsaw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EX-EA/shiny-chainsaw/issues"
+  },
+  "homepage": "https://github.com/EX-EA/shiny-chainsaw#readme",
+  "dependencies": {
+    "eslint": "^7.27.0"
+  }
+}

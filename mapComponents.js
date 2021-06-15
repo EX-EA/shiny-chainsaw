@@ -4,12 +4,13 @@
  * @returns Components对象
  */
 export default function mapComponents(directory) {
+  let files
   const path = require("path");
 
   if (!directory) {
-    const files = require.context("./components", false, /.vue$/);
+    files = require.context("./components", false, /.vue$/);
   } else {
-    const files = require.context(`@/components/${directory}`, false, /.vue$/);
+    files = require.context(`@/components/${directory}`, false, /.vue$/);
   }
   console.log("files: ", files);
 
