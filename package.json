@@ -17,7 +17,9 @@
     "url": "https://github.com/EX-EA/shiny-chainsaw/issues"
   },
   "homepage": "https://github.com/EX-EA/shiny-chainsaw#readme",
+  "devDependencies": {},
   "dependencies": {
-    "eslint": "^7.27.0"
+    "eslint": "^7.28.0",
+    "prettier": "2.3.1"
   }
 }

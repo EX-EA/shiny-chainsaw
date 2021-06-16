@@ -5,7 +5,7 @@ function debounce(fn, delay, immediate) {
     timer && clearTimeout(timer);
 
     if (immediate) {
-      let flag = !timer;
+      const flag = !timer;
       flag && fn(args);
 
       timer = setTimeout(() => {
@@ -18,3 +18,5 @@ function debounce(fn, delay, immediate) {
     }
   };
 }
+
+export default debounce;

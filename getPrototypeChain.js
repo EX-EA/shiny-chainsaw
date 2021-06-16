@@ -5,9 +5,10 @@ function getPrototypeChain(obj) {
     protoChain.push(null);
   }
 
-  while ((obj = Object.getPrototypeOf(obj))) {
+  while((obj = Object.getPrototypeOf(obj))) {
     //返回给定对象的原型。如果没有继承属性，则返回 null 。
     protoChain.push(obj);
   }
+
   return protoChain;
 }

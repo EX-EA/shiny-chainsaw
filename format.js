@@ -1,4 +1,3 @@
-/*时间戳转化为日期格式*/
 export function formatDate(date, fmt) {
   if (/(y+)/.test(fmt)) {
     fmt = fmt.replace(
