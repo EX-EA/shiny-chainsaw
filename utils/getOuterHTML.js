@@ -1,6 +1,7 @@
 /**
- * Get outerHTML of elements, taking care
- * of SVG elements in IE as well.
+ * Get outerHTML of elements, taking care of SVG element in IE well.
+ * @param { Element } el element
+ * @returns outer html
  */
 function getOuterHTML(el) {
   if (el.outerHTML) {

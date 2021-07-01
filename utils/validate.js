@@ -31,16 +31,16 @@ export function validateEmail(email) {
  */
 export function validateNumEng(value) {
   return !/^([a-zA-Z0-9]+)$/.test(value);
-},
+}
 
 /**
  * 校验数字字母汉字
  * @param {Object} value
  */
-export function(value) {
+export function validateNumEngCh(value) {
   //数字字母汉字
   return !/^([\u4e00-\u9fa5\a-zA-Z0-9]+)$/.test(value);
-},
+}
 
 /**
  * 校验银行卡号
@@ -121,7 +121,7 @@ export function isIllegalr(value) {
     .test(
       value
     );
-},
+}
 
 
 /* is ********************************************************************************/

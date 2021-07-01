@@ -1,0 +1,1 @@
+const EmptyObject = Object.freeze({})
