@@ -17,7 +17,9 @@
     "url": "https://github.com/EX-EA/shiny-chainsaw/issues"
   },
   "homepage": "https://github.com/EX-EA/shiny-chainsaw#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/template": "^7.14.5"
+  },
   "dependencies": {
     "@babel/generator": "^7.14.5",
     "@babel/parser": "^7.14.6",
