@@ -13,7 +13,15 @@
 
   <script>
     function handleClick() {
-      console.log(`click`)
+      console.log(`handleClick`);
+    }
+
+    function Person(age) {
+      this.age = age
+
+      this.showAge = function () {
+        console.log('age :>> ', age);
+      }
     }
   </script>
 </body>
