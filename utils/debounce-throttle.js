@@ -1,4 +1,11 @@
-function debounce(fn, delay, immediate) {
+/**
+ * first
+ * @param {Function} fn 防抖处理函数
+ * @param {number} delay 延迟时间,毫秒数
+ * @param {Boolean} immediate 是否立即执行
+ * @returns
+ */
+/* function debounce(fn, delay, immediate) {
   let timer;
 
   return function debouncedFn(args) {
@@ -18,5 +25,9 @@ function debounce(fn, delay, immediate) {
     }
   };
 }
+ */
+
+// second
+function debounce(fn, delay, immediate) {}
 
 export default debounce;
